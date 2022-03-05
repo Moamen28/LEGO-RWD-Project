@@ -1,0 +1,19 @@
+.HelpCookie {
+  background-color: #e6f3ff;
+  border-radius: 3.3125rem;
+  font-family: "Cera Pro", sans-serif;
+  height: 160px;
+}
+.HelpCookie .row .HelpContent h3 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.HelpCookie .row .HelpContent p {
+  font-size: 14px;
+  font-weight: 400;
+}
+.HelpCookie .row .HelpContent a {
+  font-size: 14px;
+  font-weight: 700;
+  color: #006db7;
+}

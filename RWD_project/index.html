@@ -1,0 +1,1461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Official LEGO 😍 </title>
+    <!--//? for faveIcon.... -->
+    <link rel="icon" type="image/x-icon" href="/images/logo.svg">
+    <!--//? for Css Bootstrap.... -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" media="screen and (max-width: 767px)" href="mobile.css" />
+    <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 999px)" href="Mediam.css" />
+    <!-- <link rel="stylesheet" media="screen and (min-width: 1000px)" href="css/desktop.css" /> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        ul#menu li {
+display:inline;
+}
+a{
+color: black;
+text-decoration: none;
+}
+</style>
+</head>
+<body>
+    <!--//? Header Section .... -->
+    <div class="container-fluid ">
+        <div class="row justify-content-between Row-Header ">
+            <div class="col-4 LeftSideSection d-none d-md-block">
+                <button type="button" class="btn btn-zone">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+                    </svg>
+                    PLAY ZONE
+                </button>
+            </div>
+            <div class="col-md-4 text-center col-12 CenterSideSection">
+                FREE Shipping with orders over $35! 
+                <a href="#" class="LMoreHeaderLink"> Learn more</a>
+            </div>
+            <div class="col-4 RightSideSection d-none d-md-block">
+                <button type="button" class="btn btn-account">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                    </svg>
+                    <a href="RegistrationPage.html">Account</a>
+                </button>
+                <span class="hr-Header">|</span>
+                <button type="button" class="btn btn-account">
+                    <img src="images/Vip.png" width="25px" height="25px">
+                    <a href="vipPage.html">VIP</a>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!--//? Header Section part2 .... -->
+    <nav class="navbar navbar-expand-md navbar-light ">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-4" href="#">
+                <img src="images/logo.svg" width="50px" height="50px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item left-Nav ms-4">
+                        <a class="nav-link " data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample" >Shop</a>
+                    </li>
+                    <li class="nav-item left-Nav ms-4">
+                        <a class="nav-link" href="#">Discover</a>
+                    </li>
+                    <li class="nav-item left-Nav ms-4">
+                        <a class="nav-link" href="#">Help</a>
+                    </li>
+                </ul>
+                <div class="navbar-nav ms-auto divIcon ">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link rounded-circle me-4" href="#" style="background-color: white;width: 40px; height: 40px;text-align: center;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-4" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-4" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bag-check" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M10.854 8.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+                                    <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+<!-- ///////////////////////////////////////////////////////////////////////////////// -->
+
+<!-- left list -->
+
+
+
+
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+     
+    
+    
+        <ul id="menu" class="ml-1 p-2" >
+            <li>
+
+                <a class="navbar-brand ms-4 " href="#">
+                    <img src="images/logo.svg" width="50px" height="50px">
+                </a>
+            </li>
+            <li>
+                <a class="h5" >Shop</a>
+            </li>
+            <li >
+                <a class="h5" href="#">Discover</a>
+            </li>
+            <li  >
+                <a class="h5" href="#">Help</a>
+            </li>
+        </ul>
+
+
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+    </div>
+    <div class="offcanvas-body">
+        
+        <ul id="menu" class="ml-1 p-2" >
+            <li>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          sets by theme
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                         <ul style="display: block;">
+                            <li style="display: block;"><a href="#">Architecture</a></li>
+                            <li style="display: block;"><a href="#">Batman</a></li>
+                            <li style="display: block;"><a href="#">Boots</a></li>
+                            <li style="display: block;"><a href="#">City</a></li>
+                            <li style="display: block;"><a href="#">classic</a></li>
+                            <li style="display: block;"> <a href="#">Frozen</a>   </li>
+                         </ul>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading2">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetwo" aria-expanded="true" aria-controls="collapseOne">
+                            Age
+                          </button>
+                        </h2>
+                        <div id="collapsetwo" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                           <ul style="display: block;">
+                               <li style="display: block;"><a href="#">1.5 +</a></li>
+                               <li style="display: block;"><a href="#">4+</a></li>
+                               <li style="display: block;"><a href="#">6+</a></li>
+                               <li style="display: block;"><a href="#">9+</a></li>
+                               <li style="display: block;"><a href="#">13+</a></li>
+                               <li style="display: block;"><a href="#">18+</a></li>
+                           </ul>
+  
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading3">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsethree" aria-expanded="true" aria-controls="collapseOne">
+                            Price Range
+                          </button>
+                        </h2>
+                        <div id="collapsethree" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                           <ul style="display: block;">
+                               <li style="display: block;"><a href="#">25$-50$</a></li>
+                               <li style="display: block;"><a href="#">$50-$75</a></li>
+                               <li style="display: block;"><a href="#">$75-$100</a></li>
+                               <li style="display: block;"><a href="#">Over 100$</a></li>
+                               
+                           </ul>
+  
+                          </div>
+                          
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingfour">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefor" aria-expanded="true" aria-controls="collapseOne">
+                            Clothing
+                          </button>
+                        </h2>
+                        <div id="collapsefor" class="accordion-collapse collapse show" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                           <ul style="display: block;">
+                               <li style="display: block;"><a href="#"></a>Addidas</li>
+                               <li style="display: block;"><a href="#"></a>lives</li>
+                        
+                               
+                           </ul>
+  
+                          </div>
+                          
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingsix">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="true" aria-controls="collapseOne">
+                            Bricks
+                          </button>
+                        </h2>
+                        <div id="collapsefive" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                           <ul style="display: block;">
+                               <li style="display: block;"><a href="#">Pick a Brick</li>
+                               <li style="display: block;"><a href="#">Brick Accessories & Kits</li>
+                        
+                               
+                           </ul>
+  
+                          </div>
+                          
+                        </div>
+                      </div>
+
+
+
+                  </div>
+                
+            </li>
+
+
+            <li style="display: block;"><a href="exclusive.html">Exclusive</a></li>
+            <li style="display: block;"><a href="#">New</a></li>
+            <li style="display: block;"><a href="#">Best seller</a></li>
+            <li style="display: block;"><a href="#">Easter Gifts</a></li>
+            <li style="display: block;"><a href="#">Home Decor</a></li>
+        </ul>
+       
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+    <!--//? SlideImage Section part2 .... -->
+    <div class="container-fluid img">
+        <div class="row mt-0">
+            <div class="col-12 mt-4 pe-5 text-md-end">
+                <img class="me-5 mt-5" src="images/real_madrid_logo_pos_300w.png">
+            </div>
+            <div class="col-12 mt-3 pe-5 text-md-end">
+                <h1 class="me-md-5">Match day magic</h1>
+            </div>
+            <div class="col-6"></div>
+            <div class="col-6  mt-3 pe-5 text-md-end">
+                <h5 class="me-md-5" style="font-size: 1.125rem;">Build the new LEGO® Santiago Bernabéu Stadium, home of Real Madrid C.F.</h5>
+            </div>
+            <div class="col-12 text-end mt-3 pe-5 mb-5">
+                <button type="button" class="btn btn-shop me-5">
+                    Shop Now
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <!--//? SlideImage Section part2 .... -->
+    <div class="container-fluid links-Content1 mt-md-5">
+        <div class="row justify-content-center links-Content">
+            <div class="col-md-1 col-3 ">
+                <a href="#" class="">
+                    <img src="images/novelty-2020-06-Quicklink.jpeg">
+                </a>
+                <a href="#" class="ms-3">
+                    New
+                </a>
+            </div>
+            <div class="col-md-1 col-3">
+                <a href="#" class="">
+                    <img src="images/GenericExclusives-Circle-Home-2021-Quicklink.png">
+                </a>
+                <a href="exclusive.html" class="ms-4 ">
+                    Exclusive
+                </a>
+            </div>
+            <div class="col-md-1 col-3">
+                <a href="#" class="">
+                    <img src="images/offers_Promos-Home-2021-Quicklink.png">
+                </a>
+                <a href="#" class="ms-4 ">
+                    Offers
+                </a>
+            </div>
+            <div class="col-md-1 col-3">
+                <a href="#" class="">
+                    <img src="images/BestSeller-Home-202010-Quicklink.png">
+                </a>
+                <a href="bestseler.html" class="ms-2">
+                    Best Sellers
+                </a>
+            </div>
+            <div class="col-md-1 col-3 mt-md-0 mt-4">
+                <a href="#" class="">
+                    <img src="images/21323-Schroeder-202009-Homepage-Quicklink.jpeg">
+                </a>
+                <a href="#" class="ms-3 ">
+                    Easter Gifts
+                </a>
+            </div>
+            <div class="col-md-1 col-3 mt-md-0 mt-4">
+                <a href="#" class="">
+                    <img src="images/Easter-Home-202202-Quicklink.png">
+                </a>
+                <a href="#" class="ms-4">
+                    Music
+                </a>
+            </div>
+            <div class="col-md-1 col-3 mt-md-0 mt-4">
+                <a href="#" class="">
+                    <img src="images/00-10284-Ball-Homepage-Quicklink.png">
+                </a>
+                <a href="#" class="ms-4">
+                    Sports
+                </a>
+            </div>
+            <div class="col-md-1 col-3 mt-md-0 mt-4">
+                <a href="#" class="">
+                    <img src="images/VIPSoftLaunch-Quicklink.jpeg">
+                </a>
+                <a href="vipPage.html" class="ms-4 ">
+                    Vip
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="container-fluid mb-5 mt-3 links-Content">
+        <div class="row justify-content-center">
+            <div class="col-1">
+                <a href="#" class="ms-4">
+                    New
+                </a>
+            </div>
+            <div class="col-1">
+                <a href="#" class="ms-3 ">
+                    Exclusive
+                </a>
+            </div>
+            <div class="col-1">
+                <a href="#" class="ms-4 ">
+                    Offers
+                </a>
+            </div>
+            <div class="col-1">
+                <a href="#" class="ms-2">
+                    Best Sellers
+                </a>
+            </div>
+            <div class="col-1">
+                <a href="#" class="ms-4">
+                    Music
+                </a>
+            </div>
+            <div class="col-1">
+                <a href="#" class="ms-3 ">
+                    Easter Gifts
+                </a>
+            </div>
+            <div class="col-1">
+                <a href="#" class="ms-4">
+                    Sports
+                </a>
+            </div>
+            <div class="col-1">
+                <a href="#" class="ms-4 ">
+                    Vip
+                </a>
+            </div>
+        </div>
+    </div> -->
+
+
+    <!--//? 🍓🍓 Recommended for you Section  🍓🍓  .... -->
+    <div class="container-fluid ">
+        <div class="row ms-md-5">
+            <div class="col-12 Recommended">
+                Recommended For You
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide col-md-12" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active ">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="card" style="width: 19rem;">
+                                    <div class="head  pb-2">
+                                        <a href="#" class="mt-2 text-dark ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(62, 147, 187)" class="bi bi-heart me-4 ms-2" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                            </svg>
+                                            Add to wish list
+                                        </a>
+                                        <div class="col-8 ms-5"style="height:250px">
+                                            <img src="images/1.png" class="card-img-top" alt="..."width="" height="250px">
+                                        </div>
+                                    <button type="button" class="btn-warning col-3 ms-3 ">New</button>
+                                    </div>
+                                    <a href="#" class="col-12 mt-3 ms-3">
+                                        <h6 class="card-title">Luke Skywalker™ (Red Five) Helmet</h6>
+                                    </a>
+                                    <div class="card-body">
+                                        <span class="card-text col-12">$55.99</span>
+                                        <a href="#" class="btn col-12 ms-0 me-0 pt-3 pb-3">Add To Bag</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card" style="width: 19rem;">
+                                    <div class="head  pb-2">
+                                        <a href="#" class="mt-2 text-dark ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(62, 147, 187)" class="bi bi-heart me-4 ms-2" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                            </svg>
+                                            Add to wish list
+                                        </a>
+                                        <div class="col-8 ms-5"style="height:250px">
+                                            <img src="images/40523 (1).png" class="card-img-top" alt="..."width="250px" height="250px">
+                                        </div>
+                                        <button type="button" class="btn-warning col-3 ms-3 ">New</button>
+                                    </div>
+                                    
+                                    <a href="#" class="col-12 mt-3 ms-3">
+                                        <h6 class="card-title">Easter Rabbits Display</h6>
+                                    </a>
+                                    <div class="card-body">
+                                        <span class="card-text col-12">$12.99</span>
+                                        <a href="#" class="btn col-12 ms-0 me-0 pt-3 pb-3">Add To Bag</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card" style="width: 19rem;">
+                                    <div class="head  pb-2">
+                                        <a href="#" class="mt-2 text-dark ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(62, 147, 187)" class="bi bi-heart me-4 ms-2" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                            </svg>
+                                            Add to wish list
+                                        </a>
+                                        <div class="col-8 ms-5"style="height:250px">
+                                            <img src="images/76209.png" class="card-img-top" alt="..."width="" height="250px">
+                                        </div>
+                                        <button type="button" class="btn-warning col-3 ms-3 ">New</button>
+                                    </div>
+                                    <a href="#" class="col-12 mt-3 ms-3">
+                                        <h6 class="card-title">Thor's Hammer</h6>
+                                    </a>
+                                    <div class="card-body">
+                                        <span class="card-text col-12">$99.99</span>
+                                        <a href="#" class="btn col-12 ms-0 me-0 pt-3 pb-3">Add To Bag</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card" style="width: 19rem;">
+                                    <div class="head  pb-2">
+                                        <a href="#" class="mt-2 text-dark ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(62, 147, 187)" class="bi bi-heart me-4 ms-2" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                            </svg>
+                                            Add to wish list
+                                        </a>
+                                        <div class="col-8 ms-5"style="height:250px">
+                                            <img src="images/75328.png" class="card-img-top" alt="..."width="" height="250px">
+                                        </div>
+                                        <button type="button" class="btn-warning col-3 ms-3 ">New</button>
+                                    </div>
+                                    <a href="#" class="col-12 mt-3 ms-3">
+                                    <h6 class="card-title">The Mandalorian™ Helmet</h6>
+                                    </a>
+                                    <div class="card-body">
+                                        <span class="card-text col-12">$59.99</span>
+                                        <a href="#" class="btn col-12 ms-0 me-0 pt-3 pb-3">Add To Bag</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="card" style="width: 19rem;">
+                                    <div class="head  pb-2">
+                                        <a href="#" class="mt-2 text-dark ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(62, 147, 187)" class="bi bi-heart me-4 ms-2" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                            </svg>
+                                            Add to wish list
+                                        </a>
+                                        <div class="col-8 ms-5"style="height:250px">
+                                            <img src="images/2.png" class="card-img-top" alt="..."width="" height="250px">
+                                        </div>
+                                        <button type="button" class="btn-warning col-3 ms-3 ">New</button>
+                                    </div>
+                                    <a href="#" class="col-12 mt-3 ms-3">
+                                        <h6 class="card-title">Luke Skywalker™ (Red Five) Helmet</h6>
+                                    </a>
+                                    <div class="card-body">
+                                        <span class="card-text col-12">$55.99</span>
+                                        <a href="#" class="btn col-12 ms-0 me-0 pt-3 pb-3">Add To Bag</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card" style="width: 19rem;">
+                                    <div class="head  pb-2">
+                                        <a href="#" class="mt-2 text-dark ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(62, 147, 187)" class="bi bi-heart me-4 ms-2" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                            </svg>
+                                            Add to wish list
+                                        </a>
+                                        <div class="col-8 ms-5"style="height:250px">
+                                            <img src="images/3.png" class="card-img-top" alt="..."width="250px" height="250px">
+                                        </div>
+                                        <button type="button" class="btn-warning col-3 ms-3 ">New</button>
+                                    </div>
+                                    <a href="#" class="col-12 mt-3 ms-3">
+                                        <h6 class="card-title">Easter Rabbits Display</h6>
+                                    </a>
+                                    <div class="card-body">
+                                        <span class="card-text col-12">$12.99</span>
+                                        <a href="#" class="btn col-12 ms-0 me-0 pt-3 pb-3">Add To Bag</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card" style="width: 19rem;">
+                                    <div class="head  pb-2">
+                                        <a href="#" class="mt-2 text-dark ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(62, 147, 187)" class="bi bi-heart me-4 ms-2" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                            </svg>
+                                            Add to wish list
+                                        </a>
+                                        <div class="col-8 ms-5"style="height:250px">
+                                            <img src="images/4.png" class="card-img-top" alt="..."width="" height="250px">
+                                        </div>
+                                        <button type="button" class="btn-warning col-3 ms-3 ">New</button>
+                                    </div>
+                                    <a href="#" class="col-12 mt-3 ms-3">
+                                        <h6 class="card-title">Thor's Hammer</h6>
+                                    </a>
+                                    <div class="card-body">
+                                        <span class="card-text col-12">$99.99</span>
+                                        <a href="#" class="btn col-12 ms-0 me-0 pt-3 pb-3">Add To Bag</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card" style="width: 19rem;">
+                                    <div class="head  pb-2">
+                                        <a href="#" class="mt-2 text-dark ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(62, 147, 187)" class="bi bi-heart me-4 ms-2" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                            </svg>
+                                            Add to wish list
+                                        </a>
+                                        <div class="col-8 ms-5"style="height:250px">
+                                            <img src="images/5.png" class="card-img-top" alt="..."width="" height="250px">
+                                        </div>
+                                        <button type="button" class="btn-warning col-3 ms-3 ">New</button>
+                                    </div>
+                                    <a href="#" class="col-12 mt-3 ms-3">
+                                    <h6 class="card-title">The Mandalorian™ Helmet</h6>
+                                    </a>
+                                    <div class="card-body">
+                                        <span class="card-text col-12">$59.99</span>
+                                        <a href="#" class="btn col-12 ms-0 me-0 pt-3 pb-3">Add To Bag</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="card" style="width: 19rem;">
+                                    <div class="head  pb-2">
+                                        <a href="#" class="mt-2 text-dark ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(62, 147, 187)" class="bi bi-heart me-4 ms-2" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                            </svg>
+                                            Add to wish list
+                                        </a>
+                                        <div class="col-8 ms-5"style="height:250px">
+                                            <img src="images/1.png" class="card-img-top" alt="..."width="" height="250px">
+                                        </div>
+                                        <button type="button" class="btn-warning col-3 ms-3 ">New</button>
+                                    </div>
+                                    <a href="#" class="col-12 mt-3 ms-3">
+                                        <h6 class="card-title">Luke Skywalker™ (Red Five) Helmet</h6>
+                                    </a>
+                                    <div class="card-body">
+                                        <span class="card-text col-12">$55.99</span>
+                                        <a href="#" class="btn col-12 ms-0 me-0 pt-3 pb-3">Add To Bag</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card" style="width: 19rem;">
+                                    <div class="head  pb-2">
+                                        <a href="#" class="mt-2 text-dark ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(62, 147, 187)" class="bi bi-heart me-4 ms-2" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                            </svg>
+                                            Add to wish list
+                                        </a>
+                                        <div class="col-8 ms-5"style="height:250px">
+                                            <img src="images/40523 (1).png" class="card-img-top" alt="..."width="250px" height="250px">
+                                        </div>
+                                        <button type="button" class="btn-warning col-3 ms-3 ">New</button>
+                                    </div>
+                                    <a href="#" class="col-12 mt-3 ms-3">
+                                        <h6 class="card-title">Easter Rabbits Display</h6>
+                                    </a>
+                                    <div class="card-body">
+                                        <span class="card-text col-12">$12.99</span>
+                                        <a href="#" class="btn col-12 ms-0 me-0 pt-3 pb-3">Add To Bag</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card" style="width: 19rem;">
+                                    <div class="head  pb-2">
+                                        <a href="#" class="mt-2 text-dark ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(62, 147, 187)" class="bi bi-heart me-4 ms-2" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                            </svg>
+                                            Add to wish list
+                                        </a>
+                                        <div class="col-8 ms-5"style="height:250px">
+                                            <img src="images/2.png" class="card-img-top" alt="..."width="" height="250px">
+                                        </div>
+                                        <button type="button" class="btn-warning col-3 ms-3 ">New</button>
+                                    </div>
+                                    <a href="#" class="col-12 mt-3 ms-3">
+                                        <h6 class="card-title">Luke Skywalker™ (Red Five) Helmet</h6>
+                                    </a>
+                                    <div class="card-body">
+                                        <span class="card-text col-12">$55.99</span>
+                                        <a href="#" class="btn col-12 ms-0 me-0 pt-3 pb-3">Add To Bag</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card" style="width: 19rem;">
+                                    <div class="head  pb-2">
+                                        <a href="#" class="mt-2 text-dark ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(62, 147, 187)" class="bi bi-heart me-4 ms-2" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                            </svg>
+                                            Add to wish list
+                                        </a>
+                                        <div class="col-8 ms-5"style="height:250px">
+                                            <img src="images/3.png" class="card-img-top" alt="..."width="250px" height="250px">
+                                        </div>
+                                        <button type="button" class="btn-warning col-3 ms-3 ">New</button>
+                                    </div>
+                                    <a href="#" class="col-12 mt-3 ms-3">
+                                        <h6 class="card-title">Easter Rabbits Display</h6>
+                                    </a>
+                                    <div class="card-body">
+                                        <span class="card-text col-12">$12.99</span>
+                                        <a href="#" class="btn col-12 ms-0 me-0 pt-3 pb-3">Add To Bag</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <img src="images/00-10284-Ball-Homepage-Quicklink.png" class="d-block w-100" alt="..."> -->
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <!--//? 🍓🍓 Help Cookie Section  🍓🍓  .... -->
+    <div class="container mt-5 HelpCookie mb-5">
+        <div class="row">
+            <div class="col-md-2 col-lg-2 col-3 align-self-center">
+                <img src="images/cookieguy-416967d2483b97a99e8705ec59b81ab3.png" height="100px">
+            </div>
+            <div class="col-md-8 col-lg-9  col-9 ps-lg-5 mt-lg-4 mt-2 HelpContent">
+                <h3>Help us build the most awesome personalized experience for you</h3>
+                <p>Help us build the most awesome personalized experience for you! Give us your permission to use site cookies and we’ll create you an experience you’re sure to love!</p>
+                <a href="#" class="me-4">Let's do this</a>
+                <a href="#">Tell me more</a>
+            </div>
+            <div class="col-lg-1 col-2   d-none d-md-block align-self-center">
+                <img src="images/cookies-34880ec109a389c69d5b5336583dfeb9.png" class="ms-4"height="100px">
+            </div>
+        </div>
+    </div>
+
+
+    <!--//? 🍓🍓 New Section  🍓🍓  .... -->
+    <div class="container-fluid mt-5 mb-5 pt-5">
+        <div class="row ms-5">
+            <div class="col-12 Recommended">
+                New In
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide col-12" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="card" style="width: 19rem;">
+                                    <div class="head  pb-2">
+                                        <a href="#" class="mt-2 text-dark ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(62, 147, 187)" class="bi bi-heart me-4 ms-2" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                            </svg>
+                                            Add to wish list
+                                        </a>
+                                        <div class="col-8 ms-5"style="height:250px">
+                                            <img src="images/1.png" class="card-img-top" alt="..."width="" height="250px">
+                                        </div>
+                                    <button type="button" class="btn-warning col-3 ms-3 ">New</button>
+                                    </div>
+                                    <a href="#" class="col-12 mt-3 ms-3">
+                                        <h6 class="card-title">Luke Skywalker™ (Red Five) Helmet</h6>
+                                    </a>
+                                    <div class="card-body">
+                                        <span class="card-text col-12">$55.99</span>
+                                        <a href="#" class="btn col-12 ms-0 me-0 pt-3 pb-3">Add To Bag</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card" style="width: 19rem;">
+                                    <div class="head  pb-2">
+                                        <a href="#" class="mt-2 text-dark ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(62, 147, 187)" class="bi bi-heart me-4 ms-2" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                            </svg>
+                                            Add to wish list
+                                        </a>
+                                        <div class="col-8 ms-5"style="height:250px">
+                                            <img src="images/40523 (1).png" class="card-img-top" alt="..."width="250px" height="250px">
+                                        </div>
+                                        <button type="button" class="btn-warning col-3 ms-3 ">New</button>
+                                    </div>
+                                    
+                                    <a href="#" class="col-12 mt-3 ms-3">
+                                        <h6 class="card-title">Easter Rabbits Display</h6>
+                                    </a>
+                                    <div class="card-body">
+                                        <span class="card-text col-12">$12.99</span>
+                                        <a href="#" class="btn col-12 ms-0 me-0 pt-3 pb-3">Add To Bag</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card" style="width: 19rem;">
+                                    <div class="head  pb-2">
+                                        <a href="#" class="mt-2 text-dark ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(62, 147, 187)" class="bi bi-heart me-4 ms-2" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                            </svg>
+                                            Add to wish list
+                                        </a>
+                                        <div class="col-8 ms-5"style="height:250px">
+                                            <img src="images/76209.png" class="card-img-top" alt="..."width="" height="250px">
+                                        </div>
+                                        <button type="button" class="btn-warning col-3 ms-3 ">New</button>
+                                    </div>
+                                    <a href="#" class="col-12 mt-3 ms-3">
+                                        <h6 class="card-title">Thor's Hammer</h6>
+                                    </a>
+                                    <div class="card-body">
+                                        <span class="card-text col-12">$99.99</span>
+                                        <a href="#" class="btn col-12 ms-0 me-0 pt-3 pb-3">Add To Bag</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card" style="width: 19rem;">
+                                    <div class="head  pb-2">
+                                        <a href="#" class="mt-2 text-dark ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(62, 147, 187)" class="bi bi-heart me-4 ms-2" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                            </svg>
+                                            Add to wish list
+                                        </a>
+                                        <div class="col-8 ms-5"style="height:250px">
+                                            <img src="images/75328.png" class="card-img-top" alt="..."width="" height="250px">
+                                        </div>
+                                        <button type="button" class="btn-warning col-3 ms-3 ">New</button>
+                                    </div>
+                                    <a href="#" class="col-12 mt-3 ms-3">
+                                    <h6 class="card-title">The Mandalorian™ Helmet</h6>
+                                    </a>
+                                    <div class="card-body">
+                                        <span class="card-text col-12">$59.99</span>
+                                        <a href="#" class="btn col-12 ms-0 me-0 pt-3 pb-3">Add To Bag</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="card" style="width: 19rem;">
+                                    <div class="head  pb-2">
+                                        <a href="#" class="mt-2 text-dark ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(62, 147, 187)" class="bi bi-heart me-4 ms-2" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                            </svg>
+                                            Add to wish list
+                                        </a>
+                                        <div class="col-8 ms-5"style="height:250px">
+                                            <img src="images/2.png" class="card-img-top" alt="..."width="" height="250px">
+                                        </div>
+                                        <button type="button" class="btn-warning col-3 ms-3 ">New</button>
+                                    </div>
+                                    <a href="#" class="col-12 mt-3 ms-3">
+                                        <h6 class="card-title">Luke Skywalker™ (Red Five) Helmet</h6>
+                                    </a>
+                                    <div class="card-body">
+                                        <span class="card-text col-12">$55.99</span>
+                                        <a href="#" class="btn col-12 ms-0 me-0 pt-3 pb-3">Add To Bag</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card" style="width: 19rem;">
+                                    <div class="head  pb-2">
+                                        <a href="#" class="mt-2 text-dark ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(62, 147, 187)" class="bi bi-heart me-4 ms-2" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                            </svg>
+                                            Add to wish list
+                                        </a>
+                                        <div class="col-8 ms-5"style="height:250px">
+                                            <img src="images/3.png" class="card-img-top" alt="..."width="250px" height="250px">
+                                        </div>
+                                        <button type="button" class="btn-warning col-3 ms-3 ">New</button>
+                                    </div>
+                                    <a href="#" class="col-12 mt-3 ms-3">
+                                        <h6 class="card-title">Easter Rabbits Display</h6>
+                                    </a>
+                                    <div class="card-body">
+                                        <span class="card-text col-12">$12.99</span>
+                                        <a href="#" class="btn col-12 ms-0 me-0 pt-3 pb-3">Add To Bag</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card" style="width: 19rem;">
+                                    <div class="head  pb-2">
+                                        <a href="#" class="mt-2 text-dark ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(62, 147, 187)" class="bi bi-heart me-4 ms-2" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                            </svg>
+                                            Add to wish list
+                                        </a>
+                                        <div class="col-8 ms-5"style="height:250px">
+                                            <img src="images/4.png" class="card-img-top" alt="..."width="" height="250px">
+                                        </div>
+                                        <button type="button" class="btn-warning col-3 ms-3 ">New</button>
+                                    </div>
+                                    <a href="#" class="col-12 mt-3 ms-3">
+                                        <h6 class="card-title">Thor's Hammer</h6>
+                                    </a>
+                                    <div class="card-body">
+                                        <span class="card-text col-12">$99.99</span>
+                                        <a href="#" class="btn col-12 ms-0 me-0 pt-3 pb-3">Add To Bag</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card" style="width: 19rem;">
+                                    <div class="head  pb-2">
+                                        <a href="#" class="mt-2 text-dark ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(62, 147, 187)" class="bi bi-heart me-4 ms-2" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                            </svg>
+                                            Add to wish list
+                                        </a>
+                                        <div class="col-8 ms-5"style="height:250px">
+                                            <img src="images/5.png" class="card-img-top" alt="..."width="" height="250px">
+                                        </div>
+                                        <button type="button" class="btn-warning col-3 ms-3 ">New</button>
+                                    </div>
+                                    <a href="#" class="col-12 mt-3 ms-3">
+                                    <h6 class="card-title">The Mandalorian™ Helmet</h6>
+                                    </a>
+                                    <div class="card-body">
+                                        <span class="card-text col-12">$59.99</span>
+                                        <a href="#" class="btn col-12 ms-0 me-0 pt-3 pb-3">Add To Bag</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="card" style="width: 19rem;">
+                                    <div class="head  pb-2">
+                                        <a href="#" class="mt-2 text-dark ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(62, 147, 187)" class="bi bi-heart me-4 ms-2" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                            </svg>
+                                            Add to wish list
+                                        </a>
+                                        <div class="col-8 ms-5"style="height:250px">
+                                            <img src="images/1.png" class="card-img-top" alt="..."width="" height="250px">
+                                        </div>
+                                        <button type="button" class="btn-warning col-3 ms-3 ">New</button>
+                                    </div>
+                                    <a href="#" class="col-12 mt-3 ms-3">
+                                        <h6 class="card-title">Luke Skywalker™ (Red Five) Helmet</h6>
+                                    </a>
+                                    <div class="card-body">
+                                        <span class="card-text col-12">$55.99</span>
+                                        <a href="#" class="btn col-12 ms-0 me-0 pt-3 pb-3">Add To Bag</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card" style="width: 19rem;">
+                                    <div class="head  pb-2">
+                                        <a href="#" class="mt-2 text-dark ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(62, 147, 187)" class="bi bi-heart me-4 ms-2" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                            </svg>
+                                            Add to wish list
+                                        </a>
+                                        <div class="col-8 ms-5"style="height:250px">
+                                            <img src="images/40523 (1).png" class="card-img-top" alt="..."width="250px" height="250px">
+                                        </div>
+                                        <button type="button" class="btn-warning col-3 ms-3 ">New</button>
+                                    </div>
+                                    <a href="#" class="col-12 mt-3 ms-3">
+                                        <h6 class="card-title">Easter Rabbits Display</h6>
+                                    </a>
+                                    <div class="card-body">
+                                        <span class="card-text col-12">$12.99</span>
+                                        <a href="#" class="btn col-12 ms-0 me-0 pt-3 pb-3">Add To Bag</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card" style="width: 19rem;">
+                                    <div class="head  pb-2">
+                                        <a href="#" class="mt-2 text-dark ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(62, 147, 187)" class="bi bi-heart me-4 ms-2" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                            </svg>
+                                            Add to wish list
+                                        </a>
+                                        <div class="col-8 ms-5"style="height:250px">
+                                            <img src="images/2.png" class="card-img-top" alt="..."width="" height="250px">
+                                        </div>
+                                        <button type="button" class="btn-warning col-3 ms-3 ">New</button>
+                                    </div>
+                                    <a href="#" class="col-12 mt-3 ms-3">
+                                        <h6 class="card-title">Luke Skywalker™ (Red Five) Helmet</h6>
+                                    </a>
+                                    <div class="card-body">
+                                        <span class="card-text col-12">$55.99</span>
+                                        <a href="#" class="btn col-12 ms-0 me-0 pt-3 pb-3">Add To Bag</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card" style="width: 19rem;">
+                                    <div class="head  pb-2">
+                                        <a href="#" class="mt-2 text-dark ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(62, 147, 187)" class="bi bi-heart me-4 ms-2" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                            </svg>
+                                            Add to wish list
+                                        </a>
+                                        <div class="col-8 ms-5"style="height:250px">
+                                            <img src="images/3.png" class="card-img-top" alt="..."width="250px" height="250px">
+                                        </div>
+                                        <button type="button" class="btn-warning col-3 ms-3 ">New</button>
+                                    </div>
+                                    <a href="#" class="col-12 mt-3 ms-3">
+                                        <h6 class="card-title">Easter Rabbits Display</h6>
+                                    </a>
+                                    <div class="card-body">
+                                        <span class="card-text col-12">$12.99</span>
+                                        <a href="#" class="btn col-12 ms-0 me-0 pt-3 pb-3">Add To Bag</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <img src="images/00-10284-Ball-Homepage-Quicklink.png" class="d-block w-100" alt="..."> -->
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <!--//? 🍓🍓 week's top picks Section  🍓🍓  .... -->
+    <div class="container-fluid mt-5 mb-5 ">
+        <div class="row ms-ld-3">
+            <div class="col-12 Recommended">
+                This week's top picks
+            </div>
+            <div class="col-12">
+                <div class="row justify-content-between">
+                    <div class="col-md-6 col-12 slid-img1">
+                        <img src="images/bmw_m1000_logo-neg_100h.png">
+                        <img src="images/bmw_motorad_logo-neg_100h.png">
+                    </div>
+                    <div class="col-md-6 col-12 text-center underSlidImg d-block d-md-none">
+                        <h2>New LEGO® Technic™ BMW M 1000 RR</h2>
+                        <p>Build the largest, most authentic Technic™ motorcycle to date.</p>
+                        <a href="#" type="button" class="btn me-5 btn-shop2">
+                            Shop Now
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="col-md-6  col-12  slid-img2">
+                        <img src="images/sonicTheHedgehog_logo_pos_300w.png">
+                        <img src="images/ideas_logo_neg_300w.png">
+                    </div>
+                    <div class="col-md-6 col-12 text-center underSlidImg d-block d-md-none">
+                        <h2>New LEGO® Idiea™ BMW M 1000 RR</h2>
+                        <p>Build the largest, most authentic Technic™ motorcycle to date.</p>
+                        <a href="#" type="button" class="btn me-5 btn-shop2">
+                            Shop Now
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="row justify-content-between d-none d-md-block ">
+                    <div class="row">
+                        <div class="col-6 text-center underSlidImg">
+                            <h2>New LEGO® Technic™ BMW M 1000 RR</h2>
+                            <p>Build the largest, most authentic Technic™ motorcycle to date.</p>
+                            <a href="#" type="button" class="btn me-5 btn-shop2">
+                                Shop Now
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="col-6 text-center underSlidImg">
+                            <h2>New LEGO® Idiea™ BMW M 1000 RR</h2>
+                            <p>Build the largest, most authentic Technic™ motorcycle to date.</p>
+                            <a href="#" type="button" class="btn me-5 btn-shop2">
+                                Shop Now
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--//? 🍓🍓 JanGoods Section  🍓🍓  .... -->
+    <div class="container-fluid mt-5 mb-5 JanGoods">
+        <div class="row">
+            <div class="col-12 mt-5 ps-md-5">
+                <h3 class="janH3">Jane Goodall gift with LEGO® purchases over $120*</h3>
+            </div>
+            <div class="col-12 mt-3 ps-md-5">
+                <button type="button" class="btn btn-shop3 me-5">
+                    Shop Now
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <!--//? 🍓🍓 Intro Section  🍓🍓  .... -->
+    <div class="container-fluid mt-5 mb-5">
+        <div class="row justify-content-around">
+            <div class="col-12 Recommended">
+                Introducing...
+            </div>
+            
+            <div class="col-md-3 text-center introDiv mt-4">
+                <img src="images/43207-Disney-Princess-T2-202203-PS-Block-Standard.jpeg" class="col-12">
+                <h2 class="mt-3">Dive under the waves</h2>
+                <p class="mt-3">Explore Ariel's Underwater Palace with a new LEGO® ǀ Disney set.</p>
+                <a href="#" type="button" class="btn">
+                    Shop Now
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                    </svg>
+                </a>
+            </div>
+            
+            <div class="col-md-3 text-center introDiv mt-4">
+                <img src="images/70690-Ninjago-T2-202203-PS-Block-Standard.jpeg" class="col-12">
+                <h2 class="mt-3">Master Spinjitzu skills</h2>
+                <p class="mt-3">Kids help their ninja heroes with new LEGO® NINJAGO® sets.</p>
+                <a href="#" type="button" class="btn">
+                    Shop Now
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="col-md-3 text-center introDiv mt-4">
+                <img src="images/76910-Speed-Champions-T3-202203-PS-Block-Standard.jpeg" class="col-12">
+                <h2 class="mt-3">Rev up for the big race</h2>
+                <p class="mt-3">Experience epic drama with new LEGO® Speed Champions sets.</p>
+                <a href="#" type="button" class="btn">
+                    Shop Now
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="col-md-3 text-center introDiv mt-4">
+                <img src="images/31125-Creator-3in1-T3-202203-PS-Block-Standard.jpeg" class="col-12">
+                <h2 class="mt-3">Creative fun for animal fans</h2>
+                <p class="mt-3">Rebuild forest creatures with a new LEGO® Creator 3in1 set.</p>
+                <a href="#" type="button" class="btn">
+                    Shop Now
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    
+    <!--//? 🍓🍓 finally Fotter Section  🍓🍓  .... -->
+    <div class="container-fluid mt-5 firstFotter mb-0">
+        <div class="row FotterA ">
+            <div class="col-lg-3 col-md-3 col-10 mt-3 ms-5 ms-lg-4">
+                <div class="col-12 mt-4">
+                    <img 
+                    src="https://www.lego.com/cdn/cs/set/assets/blt4ca9d171212ccbf2/LEGO-Logo-Ani1b.gif?format=gif&amp;height=55&amp;dpr=1"
+                    alt="Lego" width="100px"
+                    class="Imagestyles__Img-m2o9tb-0 jyexzd LegoLogo__ImageStyled-f5i7qr-0 hJlITg MainBarstyles__LegoLogoStyled-sc-1cg7sjw-1 biRVJw"
+                    />
+                </div>
+                <div class="col-6 mt-5 UnitedState p-2">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt me-3" viewBox="0 0 16 16">
+                            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                        </svg>
+                        United Staate
+                    </a>
+                </div>
+                <div class="col-12 mt-4">
+                    <a href="#" class="col-12">Gift Cards</a>
+                </div>
+                <div class="col-12 mt-4">
+                    <a href="otherPage.html" class="col-12">LEGO Cataloug</a>
+                </div>
+            </div>
+            <hr class="mt-lg-0 mt-5 d-block d-md-none">
+            <div class="col-lg-2 col-md-3 col-10 ms-lg-0 ms-5 me-3">
+                <div class="col-12 mt-4">
+                    <h4 onclick="show2()">ABOUT US</h4>
+                </div>
+                <div class="col-12 mt-4 rel2">
+                    <a href="about.html" >About the LEGO Group</a>
+                </div>
+                <div class="col-12 mt-4 rel2">
+                    <a href="#" >LEGO® News</a>
+                </div>
+                <div class="col-12 mt-4 rel2">
+                    <a href="#">Our Responsibility</a>
+                </div>
+                <div class="col-12 mt-4 rel2">
+                    <a href="#">Supply Chain Transparency Statement</a>
+                </div>
+                <div class="col-12 mt-4 rel2">
+                    <a href="#">LEGO Product Certification</a>
+                </div>
+                <div class="col-12 mt-4 rel2">
+                    <a href="#">LEGO Jobs</a>
+                </div>
+            </div>
+            <hr class="mt-lg-0 mt-3 d-block d-md-none">
+            <div class="col-lg-2 col-md-3 col-10 ms-lg-0 ms-5 me-3">
+                <div class="col-12 mt-4" >
+                    <h4 onclick="show()">SUPPORT</h4>
+                </div>
+                <div class="col-12 mt-4 rel">
+                    <a href="customer serves.html">Contact Us</a>
+                </div>
+                <div class="col-12 mt-4  rel">
+                    <a href="#">Find Building Instructions</a>
+                </div>
+                <div class="col-12 mt-4 rel">
+                    <a href="#">Replacement Parts</a>
+                </div>
+                <div class="col-12 mt-4 rel">
+                    <a href="#">Shipping and Returns</a>
+                </div>
+                <div class="col-12 mt-4 rel">
+                    <a href="#">Payment Methods</a>
+                </div>
+                <div class="col-12 mt-4 rel">
+                    <a href="#">Terms & Conditions</a>
+                </div>
+                <div class="col-12 mt-4 rel">
+                    <a href="#">Product Recalls</a>
+                </div>
+            </div>
+            <hr class="mt-lg-0 mt-3 d-block d-md-none">
+            <div class="col-lg-2 col-md-5 mt-md-5 mt-lg-0 mt-0 col-10 ms-lg-0 ms-5 me-2 me-lg-5">
+                <div class="col-12 mt-4">
+                    <h4 onclick="show3()">ATTRACTIONS</h4>
+                </div>
+                <div class="col-12 mt-4 rel3">
+                    <a href="#">LEGO® House</a>
+                </div>
+                <div class="col-12 mt-4 rel3 ">
+                    <a href="#">LEGOLAND® Parks</a>
+                </div>
+                <div class="col-12 mt-4 rel3">
+                    <a href="#">LEGOLAND Discovery Centers</a>
+                </div>
+            </div>
+            <hr class="mt-lg-0 mt-3 d-block d-md-none">
+            <div class="col-lg-2 col-md-5 mt-md-5 mt-lg-0 mt-0 col-10 ms-lg-0 ms-5 ">
+                <div class="col-12 mt-4">
+                    <h4 onclick="show4()">MORE FROM US</h4>
+                </div>
+                <div class="col-12 mt-4 rel4">
+                    <a href="#">LEGO® LIFE</a>
+                </div>
+                <div class="col-12 mt-4 rel4">
+                    <a href="#">LEGO Education</a>
+                </div>
+                <div class="col-12 mt-4 rel4">
+                    <a href="#">LEGO Ideas</a>
+                </div>
+                <div class="col-12 mt-4 rel4">
+                    <a href="#">LEGO Foundation</a>
+                </div>
+                <div class="col-12 mt-4 rel4">
+                    <a href="#">Affiliate Program</a>
+                </div>
+                <div class="col-12 mt-4 rel4">
+                    <a href="#">Student Offers</a>
+                </div>
+                <div class="col-12 mt-4 rel4">
+                    <a href="#" >LEGO® Braille Bricks</a>
+                </div>
+            </div>
+            <hr class="mt-lg-0 mt-3 d-block d-md-none">
+        </div>
+        <div class="row secondFotter justify-content-between mt-5 ms-lg-5">
+            <div class="col-lg-3 col-6">
+                <p>SUBSCRIBE TO LEGO® SHOP EMAILS</p>
+            </div>
+            <div class="col-lg-3 col-6 ms-lg-5">
+                <p>FOLLOW US</p>
+            </div>
+        </div>
+        <div class="row second2Fotter justify-content-between ms-lg-5 mt-3 mb-5">
+            <div class="col-lg-4 col-7">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Your email Address" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-secondary" type="button" id="button-addon2">></button>
+                </div>
+            </div>
+            <div class="col-lg-4 col-5 ms-lg-5">
+                <div class="row ms-lg-5 ">
+                    <a href="#" class="col-lg-2 col-3 ms-lg-5">
+                        <img src="images/facebook-6314170332a6695eee28eda562077344.svg">
+                    </a>
+                    <a href="#" class="col-lg-2 col-3 ">
+                        <img src="images/twitter-91fcc80bf2d1a673e4f399dbd4bddc16.svg">
+                    </a>
+                    <a href="#" class="col-lg-2 col-3">
+                        <img src="images/instagram-79db10f7a4b17956184bcea2203b29ad.svg">
+                    </a>
+                    <a href="#" class="col-lg-2 col-3">
+                        <img src="images/youtube-d204660a47f84b17514edc412f6e834e.svg">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row finalFotter mt-5 mb-0 ">
+            <div class="col-11 ms-lg-3">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Cookies</a>
+                <a href="#">Legal Notice</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Digital Wellbeing</a>
+                <a href="#">Accessibility</a>
+                <a href="#">Cookie Settings</a>
+                <a href="#">Do Not Sell My Personal Information</a>
+            </div>
+            <div class="col-11 ms-lg-3 mt-4 mb-5">
+                <p>LEGO System A/S, DK-7190 Billund, Denmark. Must be 18 years or
+                    older to purchase online. LEGO, the LEGO logo, the Minifigure,
+                    DUPLO, LEGENDS OF CHIMA, NINJAGO, BIONICLE, MINDSTORMS and MIXELS
+                    are trademarks and copyrights of the LEGO Group. ©2020 The LEGO
+                    Group. All rights reserved. Use of this site signifies your
+                    agreement to the terms of use.</p>
+            </div>
+        </div>
+    </div>
+<script>
+    var flag1=true,flag2=true,flag3=true,flag4=true;
+    function show(){
+        var c = document.querySelectorAll(".rel");
+        console.log(c);
+        if(flag2)
+        {
+            for(var i=0 ; i< c.length ; i++)
+            c[i].style.display="block"
+            flag2=false;
+        }
+        else{
+            for(var i=0 ; i< c.length ; i++)
+            c[i].style.display="none"
+            flag2=true;
+        }
+    }
+    function show2(){
+        var c = document.querySelectorAll(".rel2");
+        console.log(c);
+        if(flag1)
+        {
+            for(var i=0 ; i< c.length ; i++)
+            c[i].style.display="block"
+            flag1=false;
+        }
+        else{
+            for(var i=0 ; i< c.length ; i++)
+            c[i].style.display="none"
+            flag1=true;
+        }
+    }
+    function show3(){
+        var c = document.querySelectorAll(".rel3");
+        console.log(c);
+        if(flag3)
+        {
+            for(var i=0 ; i< c.length ; i++)
+            c[i].style.display="block"
+            flag3=false;
+        }
+        else{
+            for(var i=0 ; i< c.length ; i++)
+            c[i].style.display="none"
+            flag3=true;
+        }
+    }
+    function show4(){
+        var c = document.querySelectorAll(".rel4");
+        console.log(c);
+        if(flag4)
+        {
+            for(var i=0 ; i< c.length ; i++)
+            c[i].style.display="block"
+            flag4=false;
+        }
+        else{
+            for(var i=0 ; i< c.length ; i++)
+            c[i].style.display="none"
+            flag4=true;
+        }
+    }
+</script> 
+    <!--//? for Bundel Bootstrap.... -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>

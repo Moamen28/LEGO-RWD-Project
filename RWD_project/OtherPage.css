@@ -1,0 +1,36 @@
+.HederPage a {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Cera Pro", sans-serif;
+  text-decoration: none;
+  color: rgb(16, 133, 187);
+}
+.HederPage a:hover {
+  text-decoration: underline;
+  color: rgb(16, 133, 187);
+}
+.underHederPAge {
+  background-image: url("images/StoresBackground-6f15cab3a95450ba4acd3e7a6bd4be77.jpg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cont {
+  margin-top: 100px;
+}
+.HeadOfSection p {
+  font-size: 24px;
+  font-weight: 400;
+}
+.HeadOfSection a:hover {
+  text-decoration: underline;
+}
+.ContentSection p {
+  font-size: 14px;
+}
+.ContentSection h3 {
+  font-size: 24px;
+}
+.ContentSection a:hover {
+  text-decoration: underline;
+}

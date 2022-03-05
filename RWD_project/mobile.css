@@ -1,0 +1,94 @@
+.img .row {
+  position: relative;
+  height: 450px;
+}
+.col-6 {
+  text-align: center;
+}
+.img img {
+  position: absolute;
+  right: -38px;
+  bottom: 12px;
+}
+.img h1 {
+  position: absolute;
+  right: 130px;
+  top: 460px;
+  color: black;
+}
+.img h5 {
+  position: absolute;
+  top: 510px;
+  color: black;
+  right: 10px;
+}
+.img button {
+  position: absolute;
+  top: 570px;
+  right: 120px;
+}
+.links-Content1 {
+  margin-top: 200px;
+}
+.HelpCookie {
+  background-color: #e6f3ff;
+  border-radius: 3.3125rem;
+  font-family: "Cera Pro", sans-serif;
+  height: 150px;
+}
+.HelpCookie .row .HelpContent h3 {
+  font-size: 14px;
+  font-weight: 700;
+}
+.HelpCookie .row .HelpContent p {
+  font-size: 12px;
+  font-weight: 400;
+}
+.HelpCookie .row .HelpContent a {
+  font-size: 12px;
+  font-weight: 700;
+  color: #006db7;
+}
+
+.slid-img1 {
+  background-image: url("images/05-42130-Technic-Homepage-202201-Block-Standard-Environment.jpeg");
+  height: 450px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.slid-img1 img:first-child,
+.slid-img2 img:first-child {
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+}
+.slid-img1 img:nth-child(2),
+.slid-img2 img:nth-child(2) {
+  position: absolute;
+  right: 150px;
+  bottom: 20px;
+}
+.slid-img2 {
+  background-image: url("images/05-21331-Rings-Homepage-202201-Block-Standard-Lifestyle.jpeg");
+  background-repeat: no-repeat;
+  position: relative;
+  height: 450px;
+}
+
+.janH3 {
+  font-size: 18px;
+  margin-left: 5px;
+}
+.btn-shop3 {
+  margin-left: 10px;
+}
+
+.rel,
+.rel2,
+.rel3,
+.rel4 {
+  display: none;
+}
+hr {
+  color: white;
+}

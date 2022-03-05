@@ -1,0 +1,62 @@
+body {
+    padding-top: 0px;
+    background-color: grey;
+
+}
+
+.header {
+    background-color: rgb(67, 67, 109);
+    height: 80px;
+
+}
+
+.img {
+    width: 80%;
+    height: 80%;
+    margin: 10px;
+    padding: 3px;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    box-shadow: 1px 1px 8px #CCC;
+}
+
+.img:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.img:active {
+    border: 2px dashed red;
+}
+
+
+.carousel-inner>.carousel-item>img {
+    width: 20%;
+    height: 20%;
+
+}
+
+.d-block {
+    margin-top: 11px;
+    width: 50px;
+    height: 50px;
+}
+
+.d-block:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.p {
+    margin-left: 500px;
+}
+
+.btn {
+    text-align: center;
+    background-color: cyan;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100px;
+    margin-left: 500px;
+}
+

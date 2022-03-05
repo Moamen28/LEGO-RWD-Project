@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+        <link rel="icon" type="image/x-icon" href="/images/logo.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="Home.css">
+    <title>exclusive</title>
+    <style>
+        .checked {
+            color: orange;
+        }
+        img{
+            height: 50%;
+        }
+        .card-text {
+            height: 25%;
+
+        }
+        .card-title{
+            height: 25%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <navbar 1> -->
+        <div class="container-fluid ">
+            <div class="row justify-content-between Row-Header ">
+                <div class="col-4 LeftSideSection">
+                    <button type="button" class="btn btn-zone">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+                        </svg>
+                        PLAY ZONE
+                    </button>
+                </div>
+                <div class="col-md-4 text-center col-12 CenterSideSection">
+                    FREE Shipping with orders over $35! 
+                    <a href="#" class="LMoreHeaderLink"> Learn more</a>
+                </div>
+                <div class="col-4 RightSideSection d-none d-md-block">
+                    <button type="button" class="btn btn-account">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                        </svg>
+                        Account
+                    </button>
+                    <span class="hr-Header">|</span>
+                    <button type="button" class="btn btn-account">
+                        <img src="images/Vip.png" width="25px" height="25px">
+                        VIP
+                    </button>
+                </div>
+            </div>
+        </div>
+    
+        <!--//? Header Section part2 .... -->
+        <nav class="navbar navbar-expand-md navbar-light ">
+            <div class="container-fluid">
+                <a class="navbar-brand ms-4" href="index.html">
+                    <img src="images/logo.svg" width="50px" height="50px">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item left-Nav ms-4">
+                            <a class="nav-link " href="#">Shop</a>
+                        </li>
+                        <li class="nav-item left-Nav ms-4">
+                            <a class="nav-link" href="#">Discover</a>
+                        </li>
+                        <li class="nav-item left-Nav ms-4">
+                            <a class="nav-link" href="#">Help</a>
+                        </li>
+                    </ul>
+                    <div class="navbar-nav ms-auto divIcon ">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link rounded-circle me-4" href="#" style="background-color: white;width: 40px; height: 40px;text-align: center;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link me-4" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                        <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link me-4" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bag-check" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M10.854 8.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+                                        <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    <h6>Home > Age> 4+ Gifts & Toys for 4+ Year Olds</h6>
+
+    <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg navbar-dark font-weight-light d-flex justify-content-center"
+            style="background-color: rgb(8, 8, 8)">
+            <h2 style="color: white">
+             EXCLUSIVE
+            </h2>
+        </nav>
+    </div>
+    
+        
+           
+            <div class="h6 my-3 container-fluid " style="background-color:rgb(243, 242, 242) ;">
+                
+            
+                LEGO® sets are the best educational, brain development and learning toys for 18 months to 3 year olds. Gift the perfect LEGO® set or DUPLO® bricks that will help your toddler foster imagination while developing creativity, sensory and fine motor skills.
+            </div>
+        
+    
+
+
+
+
+
+    <!-- <page body> -->
+    <div class="container ">
+        <div class="row">
+        <div class="col-3 border-end p-0">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            PRODUCTTYPE
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    sets[127]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    storge[81]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    storge[32]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    home[32]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    Backpacks[11]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    Brick accessories[9]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    brick acccessoris& kits[9]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    Bags[11]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    Backpacks[11]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    classic[19]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    Clothing[10]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    kids[11]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    Kitchen[4]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    wall hanger[11]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    Baooks[5]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    picure farmes[3]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    lunch boxes[3]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    mugs[2]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    accessors[1]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    Polybags[1]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    Ornaments[11]
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            FEATURED
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    $0 - $25 [145]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    $25 - $50 [85]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    $50 - $75 [15]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    $75 - $100 [5]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    $100 ++ [15]
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            THEME
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    Limited Edition [5]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    New [22]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    Retiring soon[2]
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            INTEREST
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    sets[127]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    storge[81]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    storge[32]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    home[32]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    Backpacks[11]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    Brick accessories[9]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    Animal[9]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    Boats[11]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    Buildings [11]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    Cars [19]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    Decorations [10]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    Entertainments [11]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    Fantasy [4]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    Firefighters [11]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    Holiday [5]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    Learn to bulid [3]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    Newest [3]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    NinJas [2]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    Ocean [1]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    Police [9]
+                                </li>
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                    Perschool [11]
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThre" aria-expanded="false" aria-controls="flush-collapseThree">
+                        PIECE COUNT
+                    </button>
+                </h2>
+                <div id="flush-collapseThre" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                1 -199 [32]
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                100-249 [49]
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                250-499 [15]
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                500-999 [5]
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                1000++ [4]
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThee" aria-expanded="false" aria-controls="flush-collapseThree">
+                        AVALABILTY
+                    </button>
+                </h2>
+                <div id="flush-collapseThee" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                Available Now [171]
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                Out of stock [85]
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                coming soon [6]
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                Back order [2]
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapeThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        RATING
+                    </button>
+                </h2>
+                <div id="flush-collapeThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span> [25]</span>
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span> [30]</span>
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span>[40]</span>
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span> [13]</span>
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span> [3]</span>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        <div class="col-9 row ">
+
+            <div class="card col-8 col-md-4 " >
+                <img src="productimg/10970.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title ">Fire staction &helicopter</h5>
+                    <h3 class="card-text h6"> $89.99
+                    </h3>
+                    <a href="#" class="btn w-100" style="background-color: rgba(243, 114, 9, 0.815);">ADD TO BAGE</a>
+                </div>
+            </div>
+            <div class="card  col-8 col-md-4  " >
+                <img src="productimg/10959.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Police staction &helicopter</h5>
+                    <h3 class="card-text h6"> $49.99
+                    </h3>
+                    <a href="#" class="btn w-100" style="background-color: rgba(243, 114, 9, 0.815);">ADD TO BAGE</a>
+                </div>
+            </div>
+            <div class="card  col-8 col-md-4  " >
+                <img src="productimg/10968.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title h6">Doctor visie</h5>
+                    <h3 class="card-text"> $19.99
+                    </h3>
+                    <a href="#" class="btn w-100" style="background-color: rgba(243, 114, 9, 0.815);">ADD TO BAGE</a>
+                </div>
+            </div>
+            <div class="card  col-8 col-md-4 " >
+                <img src="productimg/10967.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Police motorcecl</h5>
+                    <h3 class="card-text"> $9.99
+                    </h3>
+                    <a href="#" class="btn w-100" style="background-color: rgba(243, 114, 9, 0.815);">ADD TO BAGE</a>
+                </div>
+            </div>
+            <div class="card  col-8 col-md-4  " >
+                <img src="productimg/10933_alt3.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Tower & constraction</h5>
+                    <h3 class="card-text h6"> $129.99
+                    </h3>
+                    <a href="#" class="btn w-100" style="background-color: rgba(243, 114, 9, 0.815);">ADD TO BAGE</a>
+                </div>
+            </div>
+            <div class="card   col-8 col-md-4  " >
+                <img src="productimg/10956.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Amusment park</h5>
+                    <h3 class="card-text h6"> $99.99
+                    </h3>
+                    <a href="#" class="btn w-100" style="background-color: rgba(243, 114, 9, 0.815);">ADD TO BAGE</a>
+                </div>
+            </div>
+            <div class="card  col-8 col-md-4 ">
+                <img src="productimg/10943_alt13.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Happy children moment</h5>
+                    <h3 class="card-text h6"> $89.99
+                    </h3>
+                    <a href="#" class="btn w-100" style="background-color: rgba(243, 114, 9, 0.815);">ADD TO BAGE</a>
+                </div>
+            </div>
+            <div class="card  col-8 col-md-4 ">
+                <img src="productimg/10948.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Parking karage</h5>
+                    <h3 class="card-text h6"> $109.99
+                    </h3>
+                    <a href="#" class="btn w-100" style="background-color: rgba(243, 114, 9, 0.815);">ADD TO BAGE</a>
+                </div>
+            </div>
+            <div class="card  col-8 col-md-4 " >
+                <img src="productimg/10914.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Creative animal</h5>
+                    <h3 class="card-text h6"> $59.99
+                    </h3>
+                    <a href="#" class="btn w-100" style="background-color: rgba(243, 114, 9, 0.815);">ADD TO BAGE</a>
+                </div>
+            </div>
+            <div class="card col-8 col-md-4 ">
+                <img src="productimg/10929.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">modular play house</h5>
+                    <h3 class="card-text  h6"> $59.99
+                    </h3>
+                    <a href="#" class="btn w-100" style="background-color: rgba(243, 114, 9, 0.815);">ADD TO BAGE</a>
+                </div>
+            </div>
+            <div class="card  col-8 col-md-4" >
+                <img src="productimg/10899_alt2.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Forzin ice castel</h5>
+                    <h3 class="card-text  h6"> $49.99
+                    </h3>
+                    <a href="#" class="btn w-100 " style="background-color: rgba(243, 114, 9, 0.815);">ADD TO BAGE</a>
+                </div>
+            </div>
+            <div class="card col-8 col-md-4" >
+                <img src="productimg/10970.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Fire staction &helicopter</h5>
+                    <h3 class="card-text h6"> $89.99
+                    </h3>
+                    <a href="#" class="btn w-100" style="background-color: rgba(243, 114, 9, 0.815);">ADD TO BAGE</a>
+                </div>
+            </div>
+           
+        </div>
+        </div>
+
+    </div>
+
+    <div class="container-fluid mt-5 firstFotter mb-0">
+        <div class="row FotterA ">
+            <div class="col-lg-3 col-md-3 col-10 mt-3 ms-5 ms-lg-4">
+                <div class="col-12 mt-4">
+                    <img 
+                    src="https://www.lego.com/cdn/cs/set/assets/blt4ca9d171212ccbf2/LEGO-Logo-Ani1b.gif?format=gif&amp;height=55&amp;dpr=1"
+                    alt="Lego" width="100px"
+                    class="Imagestyles__Img-m2o9tb-0 jyexzd LegoLogo__ImageStyled-f5i7qr-0 hJlITg MainBarstyles__LegoLogoStyled-sc-1cg7sjw-1 biRVJw"
+                    />
+                </div>
+                <div class="col-6 mt-5 UnitedState p-2">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt me-3" viewBox="0 0 16 16">
+                            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                        </svg>
+                        United Staate
+                    </a>
+                </div>
+                <div class="col-12 mt-4">
+                    <a href="#" class="col-12">Gift Cards</a>
+                </div>
+                <div class="col-12 mt-4">
+                    <a href="#" class="col-12">LEGO Cataloug</a>
+                </div>
+            </div>
+            <hr class="mt-lg-0 mt-5 d-block d-md-none">
+            <div class="col-lg-2 col-md-3 col-10 ms-lg-0 ms-5 me-3">
+                <div class="col-12 mt-4">
+                    <h4 onclick="show2()">ABOUT US</h4>
+                </div>
+                <div class="col-12 mt-4 rel2">
+                    <a href="#" >About the LEGO Group</a>
+                </div>
+                <div class="col-12 mt-4 rel2">
+                    <a href="#" >LEGO® News</a>
+                </div>
+                <div class="col-12 mt-4 rel2">
+                    <a href="#">Our Responsibility</a>
+                </div>
+                <div class="col-12 mt-4 rel2">
+                    <a href="#">Supply Chain Transparency Statement</a>
+                </div>
+                <div class="col-12 mt-4 rel2">
+                    <a href="#">LEGO Product Certification</a>
+                </div>
+                <div class="col-12 mt-4 rel2">
+                    <a href="#">LEGO Jobs</a>
+                </div>
+            </div>
+            <hr class="mt-lg-0 mt-3 d-block d-md-none">
+            <div class="col-lg-2 col-md-3 col-10 ms-lg-0 ms-5 me-3">
+                <div class="col-12 mt-4" >
+                    <h4 onclick="show()">SUPPORT</h4>
+                </div>
+                <div class="col-12 mt-4 rel">
+                    <a href="#">Contact Us</a>
+                </div>
+                <div class="col-12 mt-4  rel">
+                    <a href="#">Find Building Instructions</a>
+                </div>
+                <div class="col-12 mt-4 rel">
+                    <a href="#">Replacement Parts</a>
+                </div>
+                <div class="col-12 mt-4 rel">
+                    <a href="#">Shipping and Returns</a>
+                </div>
+                <div class="col-12 mt-4 rel">
+                    <a href="#">Payment Methods</a>
+                </div>
+                <div class="col-12 mt-4 rel">
+                    <a href="#">Terms & Conditions</a>
+                </div>
+                <div class="col-12 mt-4 rel">
+                    <a href="#">Product Recalls</a>
+                </div>
+            </div>
+            <hr class="mt-lg-0 mt-3 d-block d-md-none">
+            <div class="col-lg-2 col-md-5 mt-md-5 mt-lg-0 mt-0 col-10 ms-lg-0 ms-5 me-2 me-lg-5">
+                <div class="col-12 mt-4">
+                    <h4 onclick="show3()">ATTRACTIONS</h4>
+                </div>
+                <div class="col-12 mt-4 rel3">
+                    <a href="#">LEGO® House</a>
+                </div>
+                <div class="col-12 mt-4 rel3 ">
+                    <a href="#">LEGOLAND® Parks</a>
+                </div>
+                <div class="col-12 mt-4 rel3">
+                    <a href="#">LEGOLAND Discovery Centers</a>
+                </div>
+            </div>
+            <hr class="mt-lg-0 mt-3 d-block d-md-none">
+            <div class="col-lg-2 col-md-5 mt-md-5 mt-lg-0 mt-0 col-10 ms-lg-0 ms-5 ">
+                <div class="col-12 mt-4">
+                    <h4 onclick="show4()">MORE FROM US</h4>
+                </div>
+                <div class="col-12 mt-4 rel4">
+                    <a href="#">LEGO® LIFE</a>
+                </div>
+                <div class="col-12 mt-4 rel4">
+                    <a href="#">LEGO Education</a>
+                </div>
+                <div class="col-12 mt-4 rel4">
+                    <a href="#">LEGO Ideas</a>
+                </div>
+                <div class="col-12 mt-4 rel4">
+                    <a href="#">LEGO Foundation</a>
+                </div>
+                <div class="col-12 mt-4 rel4">
+                    <a href="#">Affiliate Program</a>
+                </div>
+                <div class="col-12 mt-4 rel4">
+                    <a href="#">Student Offers</a>
+                </div>
+                <div class="col-12 mt-4 rel4">
+                    <a href="#" >LEGO® Braille Bricks</a>
+                </div>
+            </div>
+            <hr class="mt-lg-0 mt-3 d-block d-md-none">
+        </div>
+        <div class="row secondFotter justify-content-between mt-5 ms-lg-5">
+            <div class="col-lg-3 col-6">
+                <p>SUBSCRIBE TO LEGO® SHOP EMAILS</p>
+            </div>
+            <div class="col-lg-3 col-6 ms-lg-5">
+                <p>FOLLOW US</p>
+            </div>
+        </div>
+        <div class="row second2Fotter justify-content-between ms-lg-5 mt-3 mb-5">
+            <div class="col-lg-4 col-7">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Your email Address" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-secondary" type="button" id="button-addon2">></button>
+                </div>
+            </div>
+            <div class="col-lg-4 col-5 ms-lg-5">
+                <div class="row ms-lg-5 ">
+                    <a href="#" class="col-lg-2 col-3 ms-lg-5">
+                        <img src="images/facebook-6314170332a6695eee28eda562077344.svg">
+                    </a>
+                    <a href="#" class="col-lg-2 col-3 ">
+                        <img src="images/twitter-91fcc80bf2d1a673e4f399dbd4bddc16.svg">
+                    </a>
+                    <a href="#" class="col-lg-2 col-3">
+                        <img src="images/instagram-79db10f7a4b17956184bcea2203b29ad.svg">
+                    </a>
+                    <a href="#" class="col-lg-2 col-3">
+                        <img src="images/youtube-d204660a47f84b17514edc412f6e834e.svg">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row finalFotter mt-5 mb-0 ">
+            <div class="col-11 ms-lg-3">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Cookies</a>
+                <a href="#">Legal Notice</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Digital Wellbeing</a>
+                <a href="#">Accessibility</a>
+                <a href="#">Cookie Settings</a>
+                <a href="#">Do Not Sell My Personal Information</a>
+            </div>
+            <div class="col-11 ms-lg-3 mt-4 mb-5">
+                <p>LEGO System A/S, DK-7190 Billund, Denmark. Must be 18 years or
+                    older to purchase online. LEGO, the LEGO logo, the Minifigure,
+                    DUPLO, LEGENDS OF CHIMA, NINJAGO, BIONICLE, MINDSTORMS and MIXELS
+                    are trademarks and copyrights of the LEGO Group. ©2020 The LEGO
+                    Group. All rights reserved. Use of this site signifies your
+                    agreement to the terms of use.</p>
+            </div>
+        </div>
+    </div>
+<script>
+    var flag1=true,flag2=true,flag3=true,flag4=true;
+    function show(){
+        var c = document.querySelectorAll(".rel");
+        console.log(c);
+        if(flag2)
+        {
+            for(var i=0 ; i< c.length ; i++)
+            c[i].style.display="block"
+            flag2=false;
+        }
+        else{
+            for(var i=0 ; i< c.length ; i++)
+            c[i].style.display="none"
+            flag2=true;
+        }
+    }
+    function show2(){
+        var c = document.querySelectorAll(".rel2");
+        console.log(c);
+        if(flag1)
+        {
+            for(var i=0 ; i< c.length ; i++)
+            c[i].style.display="block"
+            flag1=false;
+        }
+        else{
+            for(var i=0 ; i< c.length ; i++)
+            c[i].style.display="none"
+            flag1=true;
+        }
+    }
+    function show3(){
+        var c = document.querySelectorAll(".rel3");
+        console.log(c);
+        if(flag3)
+        {
+            for(var i=0 ; i< c.length ; i++)
+            c[i].style.display="block"
+            flag3=false;
+        }
+        else{
+            for(var i=0 ; i< c.length ; i++)
+            c[i].style.display="none"
+            flag3=true;
+        }
+    }
+    function show4(){
+        var c = document.querySelectorAll(".rel4");
+        console.log(c);
+        if(flag4)
+        {
+            for(var i=0 ; i< c.length ; i++)
+            c[i].style.display="block"
+            flag4=false;
+        }
+        else{
+            for(var i=0 ; i< c.length ; i++)
+            c[i].style.display="none"
+            flag4=true;
+        }
+    }
+</script> 
+    <!--//? for Bundel Bootstrap.... -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
